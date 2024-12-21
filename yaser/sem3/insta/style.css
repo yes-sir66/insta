@@ -1,0 +1,119 @@
+.container {display: flex;
+    
+    flex-direction: row;
+    }
+    .container2{
+        display: flex;
+        padding-top: 10px;
+        padding-left: 10px;
+        flex-direction: column;
+       
+      
+    }
+    
+    .container2 img{
+        
+        width: 20px;
+        
+       
+    }
+    .container2 h6{
+        margin-bottom: 1%;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding-bottom: 1%;
+        padding-left: 1%;
+    }
+    .margin{
+        
+        width: 2px;             
+       height: 100vh;
+        background-color: black;    
+      
+    }
+    .mid{
+        display: flex;
+        text-align: center;
+        width: 70%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .story{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        gap: 10px;
+      
+    }
+    .story img{
+       
+        width: 50px;
+        height: 50px;
+       border-radius: 50%;
+       border: 2px solid rgb(240, 158, 7);
+      
+    }
+
+.content{
+    display: flex;
+   
+    flex-direction: column;
+}
+.prfdiv{
+    display: flex;
+    padding-left:270px ;
+}
+.prf{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+ 
+}
+.post img{
+   height: 500px;
+}
+.text{
+    padding-top: 1%;
+}
+.end{
+    display: flex;
+    align-self: flex-end;
+    padding-right: 260px;
+}
+
+
+
+
+
+
+.lastdiv{
+    padding-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    
+}
+.user1{
+    width: 50px;
+    height: 50px;
+   border-radius: 50%;
+}
+.toend{
+    display: flex;
+    align-self: flex-end;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+}
